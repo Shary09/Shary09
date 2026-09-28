@@ -1,50 +1,173 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Portafolio - Sharon Araya</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sharon Araya | Ingeniería en Sistemas</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
 </head>
+
 <body>
-  <header>
-    <h1>Sharon Araya Ramírez</h1>
-    <p>Estudiante de Ingeniería en Sistemas | Desarrollo Web & Backend | Ciberseguridad</p>
-  </header>
 
-  <section>
-    <h2>Perfil</h2>
-    <p>Soy estudiante de Ingeniería en Sistemas con experiencia en desarrollo web y backend. Me apasiona la ciberseguridad, la inteligencia artificial y las bases de datos.</p>
-  </section>
+    <!-- ================= NAVBAR ================= -->
 
-  <section>
-    <h2>Habilidades</h2>
-    <ul>
-      <li>Lenguajes: PHP, Java, C++, JavaScript, Python</li>
-      <li>Frameworks: Laravel, Spring Boot, React</li>
-      <li>Bases de datos: MySQL, Oracle, PostgreSQL</li>
-      <li>Metodologías: Scrum</li>
-    </ul>
-  </section>
+    <header class="navbar">
 
-  <section>
-    <h2>Proyectos</h2>
-    <article>
-      <h3>Sistema de Gestión de Gimnasio</h3>
-      <p>Plataforma web para rutinas y citas, usando arquitectura en capas y Scrum.</p>
-    </article>
-    <article>
-      <h3>Sistema de Compras Internas - DHL</h3>
-      <p>Aplicación web con Laravel y MySQL para gestionar solicitudes y cotizaciones.</p>
-    </article>
-  </section>
+        <a href="#" class="logo">
+            SHARON <span>ARAYA</span>
+        </a>
 
-  <section>
-    <h2>Contacto</h2>
-    <p>Email: sharonaraya19@gmail.com</p>
-    <p>Teléfono: +506 8802-9038</p>
-  </section>
+        <nav class="nav-links">
+            <a href="#inicio" class="active">Inicio</a>
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#educacion">Educación</a>
+            <a href="#experiencia">Experiencia</a>
+            <a href="#cv">CV</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
 
-  <footer>
-    <p>© 2026 - Portafolio de Sharon Araya</p>
-  </footer>
+        <button class="menu-button" aria-label="Abrir menú">
+            ☰
+        </button>
+
+    </header>
+
+
+    <!-- ================= INICIO ================= -->
+
+    <main>
+
+        <section class="hero" id="inicio">
+
+            <!-- Decoraciones -->
+
+            <div class="glow glow-one"></div>
+            <div class="glow glow-two"></div>
+
+            <div class="hero-grid"></div>
+
+
+            <!-- CONTENIDO -->
+
+            <div class="hero-content">
+
+                <p class="hero-intro">
+                    HOLA, SOY
+                </p>
+
+                <h1>
+                    Sharon <span>Araya</span>
+                </h1>
+
+                <h2>
+                    Estudiante de Ingeniería en Sistemas
+                </h2>
+
+                <p class="hero-description">
+                    Apasionada por la tecnología y el desarrollo de soluciones
+                    que generan un impacto real. Siempre en constante
+                    aprendizaje y con interés en crear soluciones eficientes,
+                    funcionales e innovadoras.
+                </p>
+
+
+                <!-- TECNOLOGÍAS -->
+
+                <div class="technologies">
+
+                    <span>React</span>
+                    <span>Spring Boot</span>
+                    <span>Laravel</span>
+                    <span>MySQL</span>
+                    <span>Java</span>
+
+                </div>
+
+
+                <!-- BOTONES -->
+
+                <div class="hero-buttons">
+
+                    <a href="#proyectos" class="btn btn-primary">
+                        Ver proyectos
+                        <span>→</span>
+                    </a>
+
+                    <a href="#" class="btn btn-secondary">
+                        Descargar CV
+                        <span>↓</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- ================= FOTO ================= -->
+
+            <div class="hero-image-container">
+
+                <div class="tech-line line-one"></div>
+                <div class="tech-line line-two"></div>
+
+                <div class="image-frame">
+
+                    <img
+                        src="images/foto.jpg"
+                        alt="Fotografía de Sharon Araya"
+                    >
+
+                </div>
+
+
+                <!-- TARJETA DE INFORMACIÓN -->
+
+                <div class="profile-card">
+
+                    <div class="card-line"></div>
+
+                    <p>DESARROLLO</p>
+                    <p>BACKEND</p>
+                    <p>BASES DE DATOS</p>
+                    <p>CIBERSEGURIDAD</p>
+                    <p>IA</p>
+
+                </div>
+
+            </div>
+
+
+            <!-- INDICADOR SCROLL -->
+
+            <div class="scroll-indicator">
+
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+
+                <span>Scroll</span>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script src="js/script.js"></script>
+
 </body>
 </html>
