@@ -4,7 +4,7 @@
 
 Portafolio personal con mi formación, experiencia, habilidades y proyectos académicos y profesionales.
 
-**[Visitar portafolio en línea →](https://shary09.github.io/)** · [Ver CV en PDF](documents/CV%20SHARON%20ARAYA%20RAMIREZ.pdf)
+**[Visitar portafolio en línea →](https://shary09.github.io/Shary09/)** · [Ver CV en PDF](documents/CV%20SHARON%20ARAYA%20RAMIREZ.pdf)
 
 ## Proyectos destacados
 
@@ -31,12 +31,12 @@ Sistema académico para el Colegio de Ciencias Económicas, con módulos para ge
 
 ## Secciones
 
-- [Sobre mí](https://shary09.github.io/pages/sobre-mi.html)
-- [Habilidades](https://shary09.github.io/pages/habilidades.html)
-- [Proyectos](https://shary09.github.io/pages/proyectos.html)
-- [Educación](https://shary09.github.io/pages/educacion.html)
-- [Experiencia](https://shary09.github.io/pages/experiencia.html)
-- [Contacto](https://shary09.github.io/pages/contacto.html)
+- [Sobre mí](https://shary09.github.io/Shary09/pages/sobre-mi.html)
+- [Habilidades](https://shary09.github.io/Shary09/pages/habilidades.html)
+- [Proyectos](https://shary09.github.io/Shary09/pages/proyectos.html)
+- [Educación](https://shary09.github.io/Shary09/pages/educacion.html)
+- [Experiencia](https://shary09.github.io/Shary09/pages/experiencia.html)
+- [Contacto](https://shary09.github.io/Shary09/pages/contacto.html)
 
 ## Estructura del sitio
 
