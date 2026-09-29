@@ -42,20 +42,10 @@ Sistema académico para el Colegio de Ciencias Económicas, con módulos para ge
 
 El portafolio está construido sin frameworks ni dependencias de compilación. Cada página tiene sus propios estilos; la navegación compartida se encuentra en `includes/header.html` y se carga desde `js/header-loader.js`.
 
-## Ejecución local
-
-El encabezado se carga con `fetch()`, por lo que el sitio debe abrirse desde un servidor HTTP, no directamente con `file://`.
-
-Con WAMP en Windows:
-
-1. Coloca el proyecto en `C:\wamp64\www\Shary09`.
-2. Inicia Apache desde WAMP.
-3. Abre `http://localhost/Shary09/` en el navegador.
 
 ## Contacto
 
 - **Correo:** [sharonaraya19@gmail.com](mailto:sharonaraya19@gmail.com)
 - **LinkedIn:** [Sharon Araya](https://www.linkedin.com/in/sharon-araya-ram%C3%ADrez-8a5351147)
-- **GitHub:** [Shary09](https://github.com/Shary09)
 
 El formulario prepara un correo en Gmail con el asunto **“Propuesta de colaboración”**. La persona debe revisarlo y enviarlo desde Gmail; el sitio no utiliza un backend para enviar mensajes.
