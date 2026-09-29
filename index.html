@@ -7,6 +7,7 @@
     <title>Sharon Araya | Ingeniería en Sistemas</title>
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,30 +21,7 @@
 
 <body>
 
-    <!-- ================= NAVBAR ================= -->
-
-    <header class="navbar">
-
-        <a href="#" class="logo">
-            SHARON <span>ARAYA</span>
-        </a>
-
-        <nav class="nav-links">
-            <a href="#inicio" class="active">Inicio</a>
-            <a href="#sobre-mi">Sobre mí</a>
-            <a href="#habilidades">Habilidades</a>
-            <a href="#proyectos">Proyectos</a>
-            <a href="#educacion">Educación</a>
-            <a href="#experiencia">Experiencia</a>
-            <a href="#cv">CV</a>
-            <a href="#contacto">Contacto</a>
-        </nav>
-
-        <button class="menu-button" aria-label="Abrir menú">
-            ☰
-        </button>
-
-    </header>
+    <div data-header-mount></div>
 
 
     <!-- ================= INICIO ================= -->
@@ -101,12 +79,12 @@
 
                 <div class="hero-buttons">
 
-                    <a href="#proyectos" class="btn btn-primary">
+                    <a href="pages/proyectos.html" class="btn btn-primary">
                         Ver proyectos
                         <span>→</span>
                     </a>
 
-                    <a href="#" class="btn btn-secondary">
+                    <a href="documents/CV%20SHARON%20ARAYA%20RAMIREZ.pdf" class="btn btn-secondary" download="CV-Sharon-Araya-Ramirez.pdf">
                         Descargar CV
                         <span>↓</span>
                     </a>
@@ -139,34 +117,22 @@
 
                     <div class="card-line"></div>
 
-                    <p>DESARROLLO</p>
-                    <p>BACKEND</p>
+                    <p>DESARROLLO FULLSTACK</p>
                     <p>BASES DE DATOS</p>
                     <p>CIBERSEGURIDAD</p>
-                    <p>IA</p>
+                
 
                 </div>
 
             </div>
 
-
-            <!-- INDICADOR SCROLL -->
-
-            <div class="scroll-indicator">
-
-                <div class="mouse">
-                    <div class="wheel"></div>
-                </div>
-
-                <span>Scroll</span>
-
-            </div>
 
         </section>
 
     </main>
 
 
+    <script src="js/header-loader.js"></script>
     <script src="js/script.js"></script>
 
 </body>
