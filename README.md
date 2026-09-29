@@ -4,7 +4,7 @@
 
 Portafolio personal con mi formación, experiencia, habilidades y proyectos académicos y profesionales.
 
-**[Visitar portafolio en línea →](https://shary09.github.io/)** · [Ver CV en PDF](documents/CV%20SHARON%20ARAYA%20RAMIREZ.pdf)
+**[Visitar portafolio en línea →](https://shary09.github.io/Shary09/)** · [Ver CV en PDF](documents/CV%20SHARON%20ARAYA%20RAMIREZ.pdf)
 
 ## Proyectos destacados
 
