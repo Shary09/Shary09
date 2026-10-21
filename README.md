@@ -45,7 +45,7 @@ El portafolio está construido sin frameworks ni dependencias de compilación. C
 
 ## Contacto
 
-- **Correo:** [sharonaraya19@gmail.com](mailto:sharonaraya19@gmail.com)
+- **Correo:** sharonaraya19@gmail.com
 - **LinkedIn:** [Sharon Araya](https://www.linkedin.com/in/sharon-araya-ram%C3%ADrez-8a5351147)
 
 El formulario prepara un correo en Gmail con el asunto **“Propuesta de colaboración”**. La persona debe revisarlo y enviarlo desde Gmail; el sitio no utiliza un backend para enviar mensajes.
