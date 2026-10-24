@@ -34,7 +34,6 @@
                 contacto: "pages/contacto.html"
             };
 
-            navbar.classList.toggle("navbar--home", currentPage === "home");
             navbar.querySelector("[data-home-link]").href = new URL("index.html", projectRoot).href;
 
             navbar.querySelectorAll("[data-nav-page]").forEach((link) => {

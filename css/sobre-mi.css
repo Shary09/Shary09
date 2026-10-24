@@ -70,22 +70,6 @@ a {
     pointer-events: none;
 }
 
-.about-page::after {
-    position: absolute;
-    z-index: -1;
-    bottom: 58px;
-    left: -24px;
-    width: min(23vw, 250px);
-    height: 2px;
-    transform: rotate(22deg);
-    transform-origin: left center;
-    background: rgba(24, 214, 197, 0.24);
-    box-shadow: 0 0 7px 1px rgba(24, 214, 197, 0.18);
-    filter: blur(0.7px);
-    content: "";
-    pointer-events: none;
-}
-
 .about-shell {
     position: relative;
     z-index: 1;
