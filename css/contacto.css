@@ -11,12 +11,12 @@
 }
 
 html {
-    min-width: 320px;
     scroll-behavior: smooth;
 }
 
 body {
     min-height: 100vh;
+    min-height: 100svh;
     overflow-x: hidden;
     background: #0b1113;
     color: var(--white);
@@ -33,6 +33,7 @@ a {
     display: flex;
     width: calc(100% - 14px);
     min-height: calc(100vh - 14px);
+    min-height: calc(100svh - 14px);
     flex-direction: column;
     overflow: hidden;
     margin: 7px auto;
