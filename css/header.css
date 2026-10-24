@@ -24,9 +24,11 @@
 
 body > .site-frame {
     position: relative;
+    display: flex;
     width: 100%;
     min-height: 100vh;
     min-height: 100svh;
+    flex-direction: column;
     margin: 0;
     padding-top: 75px;
     overflow: visible;
@@ -39,10 +41,15 @@ body > .site-frame {
     box-shadow: none;
 }
 
+body > .site-frame > main {
+    position: relative;
+    z-index: 1;
+}
+
 body > .site-frame::after {
     position: absolute;
     z-index: 0;
-    bottom: 58px;
+    bottom: 100px;
     left: -24px;
     width: min(23vw, 250px);
     height: 2px;

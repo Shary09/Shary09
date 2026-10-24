@@ -28,21 +28,6 @@ a {
     text-decoration: none;
 }
 
-.site-frame {
-    position: relative;
-    display: flex;
-    width: calc(100% - 14px);
-    min-height: calc(100vh - 14px);
-    min-height: calc(100svh - 14px);
-    flex-direction: column;
-    overflow: hidden;
-    margin: 7px auto;
-    border: 1px solid rgba(74, 128, 138, 0.62);
-    border-radius: 8px;
-    background: linear-gradient(145deg, #091012, #070a0b 72%);
-    box-shadow: 0 0 24px rgba(24, 214, 197, 0.07);
-}
-
 .experience-main {
     position: relative;
     display: flex;

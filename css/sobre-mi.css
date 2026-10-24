@@ -30,24 +30,6 @@ a {
     text-decoration: none;
 }
 
-.site-frame {
-    position: relative;
-    display: flex;
-    width: calc(100% - 28px);
-    min-height: calc(100vh - 16px);
-    min-height: calc(100svh - 16px);
-    flex-direction: column;
-    overflow: hidden;
-    margin: 8px auto;
-    border: 1px solid rgba(74, 128, 138, 0.62);
-    border-radius: 8px;
-    background:
-        radial-gradient(ellipse 38% 28% at 0% 100%, rgba(15, 125, 118, 0.28), transparent 100%),
-        radial-gradient(ellipse 42% 38% at 100% 100%, rgba(8, 103, 98, 0.24), transparent 100%),
-        linear-gradient(145deg, #091012, var(--black) 72%);
-    box-shadow: 0 0 24px rgba(24, 214, 197, 0.07);
-}
-
 .about-page {
     position: relative;
     display: flex;
@@ -86,14 +68,6 @@ a {
     padding-right: clamp(22px, 3.5vw, 48px);
     border-right: 1px solid rgba(24, 214, 197, 0.45);
     animation: reveal 0.65s ease both;
-}
-
-.section-number {
-    margin-bottom: 10px;
-    color: var(--turquoise);
-    font-size: 13px;
-    font-weight: 700;
-    letter-spacing: 1px;
 }
 
 .about-copy h1 {
@@ -329,13 +303,6 @@ a {
 }
 
 @media (max-width: 560px) {
-    .site-frame {
-        width: calc(100% - 12px);
-        min-height: calc(100vh - 12px);
-        min-height: calc(100svh - 12px);
-        margin: 6px auto;
-    }
-
     .about-page {
         padding: 30px 18px 36px;
     }
